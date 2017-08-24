@@ -1,0 +1,15 @@
+{
+  "name": "smiles-bootmd",
+  "version": "1.0.0",
+  "description": "Smiles : Mileage Tracker",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
