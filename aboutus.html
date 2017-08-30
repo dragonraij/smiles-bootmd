@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
+    <title>Smiles Mileage Tracker</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -21,48 +21,190 @@
 <!--Main Navigation-->
 <header>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-        <a class="navbar-brand" href="#"><strong>Smiles</strong></a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-blue  scrolling-navbar">
+       <a class="navbar-brand" href="index.html"><strong>Smiles</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
+                <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu dropdown-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item active" href="aboutus.html">Learn More</a>
+                    <a class="dropdown-item " href="contactus.html">Contact Us</a>
+                </div>
+            </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Profile</a>
+                    <a class="nav-link" href="download.html" style="background-color:#6699ff; border-radius: 5px;"><b>Download</b></a>
                 </li>
+                
             </ul>
+            <form class="navbar-search pull-right">
+              <input type="text" class="search-query" placeholder="Search">
+            </form>
         </div>
     </nav>
 
-    <div class="view intro hm-purple-light" style="">
-        <div class="full-bg-img flex-center">
-            <div class="container text-center white-text wow fadeInUp">
-                <h2>Smiles : Mileage Tracker</h2>
-                <br>
-                <h5>Make your journey happier with smiles </h5>
-                
-            </div>
-        </div>
-    </div>
+    
 
 </header>
 <!--Main Navigation-->
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid  hoverable ">
 
+    <div class="container">
+        <h1 class="h1-reponsive mb-4 mt-2 white-text font-bold">Learn More</h1>
+    </div>
+
+</div>
+<!--Jumbotron-->
 <!--Main Layout-->
 <main class="text-center py-5">
 
-    <div class="container">
+    <!--Section: Contact v.1-->
+<section class="section pb-5">
+
+    <!--Section heading-->
+<div class="container">
+<!--Section: Features v.4-->
+<section class="section feature-box">
+
+    <!--Section heading-->
+    <h1 class="section-heading pt-4">What makes Smiles awesome?</h1>
+    <!--Section description-->
+    <p class="section-description lead grey-text">There is a million reasons to love smiles, but here are just a few of them. Not only is the app feature packed it is a pleasure to use. Once you have tried it will be your number one app. You will use it more than facebook. Seriously.</p>
+
+    <!--Grid row-->
+    <div class="row features-small">
+
+        <!--Grid column-->
+        <div class="col-md-4">
+
+
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row mb-2">
+                <div class="col-2">
+                    <i class="fa fa-flask blue-text"></i>
+                </div>
+                <div class="col-10">
+                    <h5 class="feature-title">Feature Packed</h5>
+                    <p class="grey-text">An app that is designed with you in mind. It has more features than you will ever need, to make sure you have everything that you need. Right at your fingertips.</p>
+                </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row mb-2">
+                <div class="col-2">
+                    <i class="fa fa-glass cyan-text"></i>
+                </div>
+                <div class="col-10">
+                    <h5 class="feature-title">Easy integrations</h5>
+                    <p class="grey-text">Export your data easily in a number of formats or link it directly with your accounting software. So that when it is tax time you dont have anything to worry about. Except how will you spend your extra free time.</p>
+                </div>
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 mb-2 center-on-small-only flex-center">
+            <img src="/img/proto.jpg" alt="" class="z-depth-0">
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4">
+
+            <!--Grid row-->
+            <div class="row mb-2">
+                <div class="col-2">
+                    <i class="fa fa-heart deep-purple-text"></i>
+                </div>
+                <div class="col-10">
+                    <h5 class="feature-title">Beautiful Interface</h5>
+                    <p class="grey-text">A modern and beautifully designed interface that is a pleasure to use. If you dont like it. Its OK. You can customise the look of the app to your hearts desire</p>
+                </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row mb-2">
+                <div class="col-2">
+                    <i class="fa fa-flash purple-text"></i>
+                </div>
+                <div class="col-10">
+                    <h5 class="feature-title">Lightning Fast</h5>
+                    <p class="grey-text">Smiles is a native app so it runs blazingly fast. Enter and update your information at the speed of touch</p>
+                </div>
+            </div>
+            <!--Grid row-->
+
+
+
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+</section>
+<!--/Section: Features v.4-->
+    </div>
+
+</section>
+<!--Section: Contact v.1-->
+
+
+<!--Footer-->
+<footer class="page-footer blue center-on-small-only">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
         <div class="row">
-       
+
+            <!--First column-->
+            <div class="col-md-6">
+                <h6 >Smiles : Mileage Tracker</h6>
+                <p>Make happier journeys :)</p>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-6">
+                <h5 class="title">Pages</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="download.html">Download</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
         </div>
     </div>
+    <!--/.Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © 2017 Copyright: <a href="#"> Smiles.co </a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
 
 </main>
 <!--Main Layout-->
